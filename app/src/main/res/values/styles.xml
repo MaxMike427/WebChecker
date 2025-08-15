@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 基础应用主题 -->
+    <style name="Theme.WebChecker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 主色调 -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- 背景色 -->
+        <item name="android:windowBackground">@color/white</item>
+        <!-- 沉浸模式设置 -->
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <!-- Android 15+ 主题设置 -->
+    <style name="Theme.WebChecker.Android15" parent="Theme.WebChecker">
+        <item name="android:windowTranslucentStatus" tools:targetApi="31">false</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="31">false</item>
+    </style>
+</resources>
