@@ -5,6 +5,10 @@ WebChecker 是一个基于 Android WebView 的轻量级浏览器应用，专为�
 
 ## V1.3 (当前版本)
 
+
+## 修改说明
+修改说明 Android Studio key密钥位于app目录下
+
 ### 更新日期
 2025-08-15
 
